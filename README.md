@@ -43,7 +43,7 @@ $model->latestReview()->title; //returns 'Lovely packages'
 You can install the package via composer:
 
 ```bash
-composer require onemoreahmad/laravel-review-rating
+composer require onemoreahmad/laravel-review-rating:dev-master
 ```
 You must publish the migration with:
 ```bash
