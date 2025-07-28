@@ -5,6 +5,9 @@
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/digikraaft/laravel-review-rating/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
+## UPDATED to Laravel 12
+This is a fork from the original repo, just updated dependencies.
+
 ## Review and Rating System for Laravel
 This package provides a simple review and rating system for Laravel. It supports
 Laravel 5.8 an up. Here is a quick demonstration of how it can be used:
@@ -40,7 +43,7 @@ $model->latestReview()->title; //returns 'Lovely packages'
 You can install the package via composer:
 
 ```bash
-composer require digikraaft/laravel-review-rating
+composer require onemoreahmad/laravel-review-rating
 ```
 You must publish the migration with:
 ```bash
